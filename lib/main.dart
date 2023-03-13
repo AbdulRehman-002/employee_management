@@ -28,8 +28,7 @@ class MyApp extends StatelessWidget {
         ChangeNotifierProvider(create: (context) => HomeProvider()),
         ChangeNotifierProvider(create: (context) => AddEmployeeProvider()),
         ChangeNotifierProvider(create: (context) => UpdateEmployeeProvider()),
-        // ChangeNotifierProvider(create: (context) => EmployeeDetailsProvider()),
-      ],
+        ],
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
         title: 'Flutter Demo',
