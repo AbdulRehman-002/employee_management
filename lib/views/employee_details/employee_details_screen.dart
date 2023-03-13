@@ -5,7 +5,6 @@ import 'package:virtoxed_text/models/employee_model.dart';
 import 'package:virtoxed_text/utils/colors.dart';
 import 'package:virtoxed_text/utils/const.dart';
 import 'package:virtoxed_text/utils/sized_box.dart';
-import 'package:virtoxed_text/views/employee_details/employee_detail_provider.dart';
 import 'package:virtoxed_text/views/employee_details/employee_detail_screen_components.dart';
 import 'package:virtoxed_text/views/update_employee/update_employee_screen.dart';
 

@@ -3,7 +3,6 @@ import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
 import 'package:uuid/uuid.dart';
 import 'package:virtoxed_text/views/add_employee/add_employee_provider.dart';
-import 'package:virtoxed_text/views/employee_details/employee_detail_provider.dart';
 import 'package:virtoxed_text/views/home/home_provider.dart';
 import 'package:virtoxed_text/views/splash_screen.dart';
 import 'package:virtoxed_text/views/update_employee/update_employee_provider.dart';
@@ -28,7 +27,7 @@ class MyApp extends StatelessWidget {
         ChangeNotifierProvider(create: (context) => HomeProvider()),
         ChangeNotifierProvider(create: (context) => AddEmployeeProvider()),
         ChangeNotifierProvider(create: (context) => UpdateEmployeeProvider()),
-        ],
+      ],
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
         title: 'Flutter Demo',

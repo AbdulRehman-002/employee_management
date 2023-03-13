@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:virtoxed_text/utils/colors.dart';
 import 'package:virtoxed_text/views/employee_details/employee_details_screen.dart';
-import 'package:virtoxed_text/views/employee_details/employee_detail_provider.dart';
 
 import '../../models/employee_model.dart';
 
